@@ -1,0 +1,29 @@
+{
+  "name": "newsblur-gelf",
+  "version": "0.1.0",
+  "description": "read newsblur stats into Graylog2",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:erezny/newsblur-gelf.git"
+  },
+  "keywords": [
+    "newsblur",
+    "gelf",
+    "graylog2"
+  ],
+  "author": "erezny@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erezny/newsblur-gelf/issues"
+  },
+  "homepage": "https://github.com/erezny/newsblur-gelf",
+  "dependencies": {
+    "graygelf": "^1.0.0",
+    "node-schedule": "^0.2.6",
+    "restler": "^3.2.2"
+  }
+}
